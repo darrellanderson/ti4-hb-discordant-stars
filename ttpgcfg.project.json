@@ -3,6 +3,7 @@
   "slug": "ti4-hb-discordant-stars",
   "version": "1.0.0",
   "transpile": true,
+  "modId": 6410387,
   "guid": {
     "dev": "6E7D7494206B4F519A21FE5E569D200E",
     "prd": "045DB67C223E484191E12CB5044D37F3"
