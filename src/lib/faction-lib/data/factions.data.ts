@@ -64,7 +64,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["emergency-mobilization"],
+      factionTechs: ["emergency-mobilization", "trade-port-2"],
       unitOverrides: ["supremacy", "trade-port-1", "trade-port-2"],
       extras: [
         { nsid: "card.celagrom:discordant-stars/0" },
@@ -101,7 +101,7 @@ export const factions: Array<FactionSchemaType> = [
         infantry: 3,
         spaceDock: 1,
       },
-      factionTechs: ["recursive-worm"],
+      factionTechs: ["recursive-worm", "unholy-abomination-2"],
       unitOverrides: ["reprocessor-alpha", "unholy-abomination-1", "unholy-abomination-2"],
     },
     {
@@ -133,7 +133,7 @@ export const factions: Array<FactionSchemaType> = [
         mech: 1,
         spaceDock: 1,
       },
-      factionTechs: ["impressment-programs"],
+      factionTechs: ["impressment-programs", "aegis-2"],
       unitOverrides: ["maximus", "aegis-1", "aegis-2"],
     },
     {
@@ -163,7 +163,7 @@ export const factions: Array<FactionSchemaType> = [
         infantry: 4,
         spaceDock: 1,
       },
-      factionTechs: ["blackmail-programs"],
+      factionTechs: ["blackmail-programs", "corsair-2"],
       unitOverrides: ["man-o-war", "corsair-1", "corsair-2"],
     },
     {
@@ -229,7 +229,7 @@ export const factions: Array<FactionSchemaType> = [
         infantry: 3,
         spaceDock: 2,
       },
-      factionTechs: ["war-song-implants"],
+      factionTechs: ["war-song-implants", "combat-transport-2"],
       unitOverrides: ["the-lady","combat-transport-1","combat-transport-2"],
       extras: [
         { nsid: "card.lord:discordant-stars/0" },
@@ -360,7 +360,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["wraith-engine"],
+      factionTechs: ["wraith-engine", "heavy-bomber-2"],
       unitOverrides: ["silence-of-stars", "heavy-bomber-1", "heavy-bomber-2"],
       extras: [
         { nsid: "token.attachment.planet:discordant-stars/trap-account-siphon-token" },
@@ -400,7 +400,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["stones-embrace"],
+      factionTechs: ["stones-embrace", "shattered-sky-2"],
       unitOverrides: ["splintering-gale", "shattered-sky-1", "shattered-sky-2"],
       extras: [
         { nsid: "card.grove:discordant-stars/0" },
@@ -436,7 +436,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["orbital-defense-grid"],
+      factionTechs: ["orbital-defense-grid", "gauss-cannon-2"],
       unitOverrides: ["the-nexus", "gauss-cannon-1", "gauss-cannon-2"],
     },
     {
@@ -500,7 +500,7 @@ export const factions: Array<FactionSchemaType> = [
         infantry: 6,
         spaceDock: 1,
       },
-      factionTechs: ["psychoactive-armaments"],
+      factionTechs: ["psychoactive-armaments", "mycelium-ring-2"],
       unitOverrides: ["psyclobrea-qarnyx", "mycelium-ring-1", "mycelium-ring-2"],
       extras: [
         { nsid: "token.myko:discordant-stars/myko-commodity-token" },
@@ -537,7 +537,7 @@ export const factions: Array<FactionSchemaType> = [
         mech: 1,
         spaceDock: 1,
       },
-      factionTechs: ["voidwake-missiles"],
+      factionTechs: ["voidwake-missiles", "voidflare-warden-2"],
       unitOverrides: ["eradica", "voidflare-warden-1", "voidflare-warden-2"],
     },
     {
@@ -637,11 +637,11 @@ export const factions: Array<FactionSchemaType> = [
         infantry: 3,
         spaceDock: 1,
       },
-      factionTechs: ["contractual-obligations"],
+      factionTechs: ["contractual-obligations", "terrafactory-2"],
       unitOverrides: ["kyvir", "terrafactory-1", "terrafactory-2"],
       extras: [
         { nsid: "token.attachment.planet:discordant-stars/automatons-token" },
-        { nsid: "token.rohdhna:discordant-stars/rohdhna-commodity-token" },
+        { nsid: "token.rohdhna:discordant-stars/rohdhna-commodity-token", count: 2 },
       ],
     },
     {
@@ -673,7 +673,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["daedalon-flight-system"],
+      factionTechs: ["daedalon-flight-system", "blockade-runner-2"],
       unitOverrides: ["principia", "blockade-runner-1", "blockade-runner-2"],
     },
     {
@@ -738,7 +738,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["scavenger-exos"],
+      factionTechs: ["scavenger-exos", "raider-2"],
       unitOverrides: ["lost-cause", "raider-1", "raider-2"],
     },
     {
@@ -770,7 +770,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["seidr-project"],
+      factionTechs: ["seidr-project", "lancer-dreadnought-2"],
       unitOverrides: ["richtyrian", "lancer-dreadnought-1", "lancer-dreadnought-2"],
       extras: [
         { nsid: "token.attachment.planet:discordant-stars/branch-office-broadcast-hub-token" },
@@ -810,7 +810,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["shard-volley"],
+      factionTechs: ["shard-volley", "impactor-2"],
       unitOverrides: ["world-cracker", "impactor-1", "impactor-2"],
     },
     {
@@ -882,7 +882,7 @@ export const factions: Array<FactionSchemaType> = [
         mech: 1,
         spaceDock: 1,
       },
-      factionTechs: ["brood-pod"],
+      factionTechs: ["brood-pod", "chitin-hulk-2"],
       unitOverrides: ["lithodax", "chitin-hulk-1", "chitin-hulk-2"],
       extras: [
         { nsid: "token:discordant-stars/cheiran-dreadnought-token" },
@@ -988,7 +988,7 @@ export const factions: Array<FactionSchemaType> = [
         mech: 1,
         spaceDock: 1,
       },
-      factionTechs: ["lightning-drives"],
+      factionTechs: ["lightning-drives", "orion-platform-2"],
       unitOverrides: ["beg-bersha", "orion-platform-1", "orion-platform-2"],
       extras: [
         { nsid: "token.attachment.planet:discordant-stars/gledge-base-token" },
@@ -1026,7 +1026,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["zhrgar-stimulants"],
+      factionTechs: ["zhrgar-stimulants", "star-dragon-2"],
       unitOverrides: ["hulgades-hammer", "star-dragon-1", "star-dragon-2"],
       extras: [
         { nsid: "token.attachment.system:discordant-stars/glory-token", count: 3 },
@@ -1157,7 +1157,7 @@ export const factions: Array<FactionSchemaType> = [
         spaceDock: 1,
         pds: 1,
       },
-      factionTechs: ["local-contracts"],
+      factionTechs: ["local-contracts", "sabre-2"],
       unitOverrides: ["annah-regia", "sabre-1", "sabre-2"],
     }
 ];
